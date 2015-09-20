@@ -1,1 +1,17 @@
-// Skip button styles will go here
+
+<div>
+	<style scoped>
+	
+		.button-prev {
+        		background: rgb(223, 117, 20); /* this is an orange */
+	        }
+
+		.button-next {
+                        background: rgb(223, 117, 20); /* this is an orange */
+                }
+
+	</style scoped>
+
+	<button class="button-prev pure-button">Prev</button>
+	<button class="button-next pure-button">Next</button>
+</div>
