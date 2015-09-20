@@ -7,7 +7,7 @@
 
   "content_scripts": [{
     "css": [ "buttons.css" ],
-    "js": [ "mixtape.js" ],
+    "js": [ "jquery-2.1.4.min.js", "mixtape.js" ],
     "matches": [ "*://*/*" ]
   }],
   "version": "0.0.1"
