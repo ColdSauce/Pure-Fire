@@ -1,2 +1,2 @@
 # Pure-Fire
-Sound cloud firefox add on and chrome extension where you can see what song is playing and skip to other songs in a long mix.
+Pure Fire is a website where you could put in a URL of an x-minute long mix and it shows all the songs being played by using a music identification service.
