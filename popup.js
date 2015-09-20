@@ -1,6 +1,4 @@
-// Copyright (c) 2014 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+// Author: Conor Jackson cxj3042@rit.edu
 
 /**
  * Get the current URL.
@@ -36,15 +34,6 @@ function getCurrentTabUrl(callback) {
 
     callback(url);
   });
-
-  // Most methods of the Chrome extension APIs are asynchronous. This means that
-  // you CANNOT do something like this:
-  //
-  // var url;
-  // chrome.tabs.query(queryInfo, function(tabs) {
-  //   url = tabs[0].url;
-  // });
-  // alert(url); // Shows "undefined", because chrome.tabs.query is async.
 }
 
 /**
