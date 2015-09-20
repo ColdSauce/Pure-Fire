@@ -7,6 +7,10 @@ if (window.document.origin.indexOf('soundcloud.com') != -1) {
   console.log('sending to ' + serverUrl)
   $.get(serverUrl, function(e) {
     console.log(e);
+    console.log('adding button');
+    skipButton = document.createElement('button');
+    skipButton.className = 'skipControl playControls__icon sc-ir skipControl__next';
+    $('.playControls__playPauseSkip').appendChild(skipButton);
   })
 }
 
